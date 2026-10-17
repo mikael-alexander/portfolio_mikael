@@ -1,0 +1,289 @@
+export const personalInfo = {
+  name: "Mikael Alexander Pereira da Silva",
+  role: "Engenheiro de Software Fullstack",
+  specialties: [
+    "Backend Java (Spring Boot, Lambdas & Streams)",
+    "Ecossistema .NET / C#",
+    "Engenharia de Integração (Apache Camel & EIP)",
+    "Padrões de Projeto (GoF, SOLID & Clean Code)",
+    "Sustentação de Missão Crítica (L3 & Análise de Causa Raiz)",
+    "Java integrado a IA & Engenharia de Prompts",
+    "Banco de Dados (Oracle PL/SQL & PostgreSQL)",
+    "Frontend Reativo (React, Angular, Vue.js)"
+  ],
+  location: "Araraquara, SP - Brasil",
+  email: "mikaelmika74@gmail.com",
+  phone: "(16) 99600-9833",
+  whatsappUrl: "https://wa.me/5516996009833?text=Ol%C3%A1%20Mikael,%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar!",
+  linkedin: "https://www.linkedin.com/in/mikael-silva-835029115",
+  github: "https://github.com/mikael-alexander",
+  about: `Engenheiro de Software Full Stack com sólida trajetória no desenvolvimento de sistemas corporativos de grande porte e soluções autônomas sob demanda. Especialista em todo o ciclo de vida do software, combinando arquitetura robusta no backend (Java/Spring, .NET, Apache Camel, Oracle PL/SQL e PostgreSQL), inteligência artificial aplicada ao desenvolvimento (Java + IA, Agentes de Software), padrões de projeto (GoF/SOLID) e sustentação de sistemas de missão crítica de Nível 3 (L3).
+
+Experiência consolidada em ambientes de alta disponibilidade na multinacional DXC Technology, diagnóstico aprofundado de causa raiz em plataformas legadas e contemporâneas, cumprimento rigoroso de SLAs, automação de processos (RPA com Automation Anywhere), práticas de BDD com Cucumber e esteiras de CI/CD automatizadas com Jenkins e SonarQube.`
+};
+
+export const metrics = [
+  { label: "Anos de Experiência", value: "5+", detail: "No setor corporativo & consultoria" },
+  { label: "Sustentação L3", value: "Missão Crítica", detail: "Diagnóstico de causa raiz & SLAs" },
+  { label: "Arquitetura", value: "Java, .NET & IA", detail: "Design Patterns, Spring & Camel" },
+  { label: "Qualidade Contínua", value: "BDD & CI/CD", detail: "Cucumber, SonarQube & GitFlow" }
+];
+
+export const skillCategories = [
+  {
+    category: "Backend, Arquitetura & Integrações",
+    icon: "Server",
+    skills: [
+      { name: "Java (Spring Boot / Framework)", level: "Avançado", badge: "Core" },
+      { name: "Java + IA & Agentes de Software", level: "Avançado", badge: "Inovação" },
+      { name: "Padrões de Projeto (GoF & SOLID)", level: "Especialista", badge: "Arquitetura" },
+      { name: "Apache Camel (EIP & Integrações Corporativas)", level: "Especialista", badge: "Integração" },
+      { name: ".NET / C# (APIs RESTful)", level: "Avançado", badge: "Core" },
+      { name: "Swagger / OpenAPI & Contratos de APIs", level: "Avançado", badge: "APIs" },
+      { name: "Conectividade & Sistemas ERP / Legados", level: "Avançado", badge: "Enterprise" },
+      { name: "Java JSP & Visual Basic 6 (VB6)", level: "Sustentação & Fix", badge: "L3 / Legado" }
+    ]
+  },
+  {
+    category: "Bancos de Dados & Dados Críticos",
+    icon: "Database",
+    skills: [
+      { name: "Oracle PL/SQL (Packages .PKS / .PKB)", level: "Avançado", badge: "Missão Crítica" },
+      { name: "PostgreSQL (Modelagem & Boas Práticas)", level: "Avançado", badge: "Relacional" },
+      { name: "MySQL & phpMyAdmin", level: "Avançado", badge: "Relacional" },
+      { name: "Tuning de Queries & Índices de Alta Carga", level: "Avançado", badge: "Performance" },
+      { name: "Jobs Automatizados & Cargas em Lote (ETL)", level: "Avançado", badge: "Batch ETL" }
+    ]
+  },
+  {
+    category: "Frontend & Interfaces Web",
+    icon: "Layout",
+    skills: [
+      { name: "React.js", level: "Avançado", badge: "UI / SPA" },
+      { name: "Angular", level: "Intermediário/Avançado", badge: "Enterprise" },
+      { name: "Vue.js", level: "Intermediário/Avançado", badge: "Modern UI" },
+      { name: "TypeScript & JavaScript (ES6+)", level: "Avançado", badge: "Web" },
+      { name: "HTML5 & CSS3 Responsivo / Glassmorphism", level: "Avançado", badge: "Design" },
+      { name: "jQuery & Web Tradicional", level: "Experiência", badge: "Transição Web" }
+    ]
+  },
+  {
+    category: "DevOps, Qualidade & Automação",
+    icon: "Terminal",
+    skills: [
+      { name: "Cucumber (BDD) & Testes Automatizados", level: "Avançado", badge: "QA & BDD" },
+      { name: "SonarQube (Qualidade & Segurança Estática)", level: "Avançado", badge: "Code Quality" },
+      { name: "Jenkins & Pipelines CI/CD Automatizadas", level: "Avançado", badge: "Pipelines" },
+      { name: "Git, GitHub, GitLab & GitFlow", level: "Avançado", badge: "Versionamento" },
+      { name: "Automation Anywhere (Advanced RPA Professional)", level: "Certificado", badge: "Automação" },
+      { name: "Docker & Kubernetes (Orquestração Básica)", level: "Intermediário", badge: "DevOps" }
+    ]
+  }
+];
+
+export const experiences = [
+  {
+    company: "Enterprise Services Brasil (DXC Technology)",
+    role: "Analyst I Software Engineering",
+    period: "01/2024 – 08/2026",
+    tag: "Missão Crítica & Sustentação L3",
+    description: "Atuação estratégica como Engenheiro de Software na sustentação, análise e resolução de incidentes críticos de alta complexidade (L3) reportados por clientes globais, garantindo rigorosa conformidade com SLAs de disponibilidade.",
+    achievements: [
+      "Diagnóstico e resolução definitiva de bugs de causa raiz em sistemas corporativos heterogêneos desenvolvidos em Java (JSP), .NET e VB6.",
+      "Criação, manutenção e tuning de rotinas de banco de dados via Packages PL/SQL avançadas (.PKS / .PKB) com foco em consistência transacional.",
+      "Otimização contínua de rotinas de carga de dados e Jobs automatizados responsáveis pelo processamento ininterrupto de informações de alta criticidade.",
+      "Aplicação de Padrões de Projeto (GoF) em refatorações corretivas, reduzindo a dívida técnica e melhorando a estabilidade operacional (MTTR)."
+    ],
+    techs: ["Java", "JSP", ".NET", "PL/SQL (.PKS / .PKB)", "Oracle", "VB6", "Design Patterns", "Jobs Batch", "Sustentação L3", "SLA"]
+  },
+  {
+    company: "Enterprise Services Brasil (DXC Technology)",
+    role: "Consultor de Tecnologias I",
+    period: "10/2021 – 12/2023",
+    tag: "Desenvolvimento Full Stack & Integração",
+    description: "Design, construção e automação de sistemas full stack ponta a ponta, unindo microsserviços escaláveis, barramentos de integração corporativa e interfaces reativas.",
+    achievements: [
+      "Desenvolvimento e documentação de APIs RESTful em Java (Spring Framework) e .NET utilizando Swagger / OpenAPI sob padrões de Clean Code.",
+      "Construção de rotas inteligentes de integração corporativa com Apache Camel, orquestrando tráfego de dados entre sistemas heterogêneos e módulos ERP.",
+      "Criação de frontends modernos, responsivos e modulares utilizando Angular, Vue.js, HTML5 e CSS3.",
+      "Automação completa de esteiras de CI/CD via Jenkins, com validações de métricas de código e gates de qualidade no SonarQube sob GitFlow.",
+      "Garantia de qualidade contínua com testes unitários, testes de integração e testes comportamentais automatizados (BDD) com Cucumber."
+    ],
+    techs: ["Java (Spring)", "Apache Camel", ".NET", "Angular", "Vue.js", "Swagger", "Cucumber BDD", "Jenkins", "SonarQube", "GitFlow"]
+  },
+  {
+    company: "Enterprise Services Brasil (DXC Technology)",
+    role: "Estágio em Engenharia de Integração",
+    period: "12/2020 – 10/2021",
+    tag: "Enterprise Integration Patterns",
+    description: "Atuação no desenvolvimento e manutenção de rotas de integração distribuídas para conexão de sistemas heterogêneos de missão crítica.",
+    achievements: [
+      "Implementação de componentes e rotas de mensageria utilizando Java e Apache Camel para interoperabilidade de sistemas corporativos.",
+      "Padronização de payloads e protocolos de comunicação, reduzindo gargalos na transferência de dados entre aplicações legadas e modernas.",
+      "Suporte ao diagnóstico de incidentes em fluxos assíncronos e garantia de integridade nas entregas de mensagens."
+    ],
+    techs: ["Java", "Apache Camel", "EIP", "Transformação de Dados", "Mensageria"]
+  },
+  {
+    company: "Profissional Autônomo / Prestador de Serviços",
+    role: "Desenvolvedor Full Stack Freelancer",
+    period: "Atuação Sob Demanda",
+    tag: "Soluções Web Ponta a Ponta",
+    description: "Desenvolvimento de software sob medida para clientes diretos, cobrindo todo o ciclo desde o levantamento técnico até o deploy em produção.",
+    achievements: [
+      "Levantamento detalhado de requisitos, arquitetura de banco de dados relacional (PostgreSQL / MySQL) e especificação técnica.",
+      "Construção de SPAs modernas e de alto desempenho utilizando React e JavaScript moderno com foco em experiência do usuário.",
+      "Implementação de backends estruturados em Java aplicando Padrões de Projeto para fácil manutenção e escalabilidade futura."
+    ],
+    techs: ["React", "JavaScript", "TypeScript", "Java Spring", "PostgreSQL", "Padrões de Projeto", "Git"]
+  }
+];
+
+export const projects = [
+  {
+    id: "camel-integration-hub",
+    title: "Hub de Integração & Mensageria Corporativa",
+    category: "Backend & Integrações",
+    subtitle: "Enterprise Integration Patterns com Apache Camel & Spring Boot",
+    description: "Barramento corporativo resiliente para orquestração de mensagens entre sistemas heterogêneos (legados, APIs e módulos de ERP), com filas assíncronas, políticas de retry e transformação de formatos (JSON/XML).",
+    highlights: [
+      "Rotas transacionais com resiliência, Dead Letter Queues (DLQ) e tolerância a falhas",
+      "Conectividade entre sistemas legados, microsserviços modernos e rotinas ERP",
+      "Documentação completa de contratos de integração com OpenAPI / Swagger"
+    ],
+    techs: ["Apache Camel", "Java", "Spring Boot", "RabbitMQ/JMS", "Swagger", "EIP"]
+  },
+  {
+    id: "batch-plsql-processor",
+    title: "Motor de Processamento Batch & Dados Críticos",
+    category: "Dados & Missão Crítica",
+    subtitle: "Packages PL/SQL (.PKS / .PKB) & Tuning Relacional",
+    description: "Arquitetura e tuning de rotinas de banco de dados em Oracle PL/SQL e PostgreSQL para processamento em lote de informações de clientes de grande porte sob rígidos SLAs de missão crítica (L3).",
+    highlights: [
+      "Otimização de índices e queries com drástica redução de tempo de execução em jobs batch",
+      "Packages estruturadas com modularização (.PKS / .PKB) e tratamento transacional avançado",
+      "Rastreabilidade completa e diagnóstico de causa raiz em falhas de processamento"
+    ],
+    techs: ["Oracle PL/SQL", "Packages .PKS/.PKB", "PostgreSQL", "Jobs Batch", "Tuning SQL", "Java"]
+  },
+  {
+    id: "enterprise-dashboard-portal",
+    title: "Portal Corporativo Full Stack com Automação",
+    category: "Full Stack & Automação",
+    subtitle: "Frontend Moderno com React & Backend em Java Spring / .NET",
+    description: "Aplicação web completa para gestão operacional corporativa, incluindo painéis dinâmicos, controle de permissões por perfil, fluxos automatizados de processos e esteiras de build contínuo.",
+    highlights: [
+      "Interface responsiva em React com design system moderno, acessibilidade e micro-interações",
+      "Backend RESTful estruturado com Padrões de Projeto (GoF/SOLID) e segurança",
+      "Pipeline automatizada no Jenkins com análise de código estático via SonarQube"
+    ],
+    techs: ["React", "Java Spring", ".NET Core", "PostgreSQL", "Jenkins", "SonarQube"]
+  },
+  {
+    id: "bdd-cucumber-quality-suite",
+    title: "Suíte de Testes Automatizados & BDD",
+    category: "Qualidade & Automação",
+    subtitle: "Behavior Driven Development com Cucumber, Selenium & Java",
+    description: "Framework de testes automatizados com abordagem BDD em linguagem natural (Gherkin), permitindo especificação executável de regras de negócio integrada diretamente às esteiras de CI/CD.",
+    highlights: [
+      "Especificação viva de requisitos de negócio executada automaticamente a cada build",
+      "Validação de rotas críticas e regressão contínua com redução de bugs em produção",
+      "Métricas de qualidade e cobertura inspecionadas continuamente no SonarQube"
+    ],
+    techs: ["Cucumber (BDD)", "Selenium", "Java", "JUnit", "Jenkins CI/CD", "GitFlow"]
+  }
+];
+
+export const education = [
+  {
+    degree: "Pós-graduação em Engenharia de Software",
+    institution: "Faculdade Metropolitana",
+    period: "Conclusão prevista: 2027 (Cursando)",
+    status: "Pós-graduação",
+    details: "Especialização em arquitetura de microsserviços, governança corporativa de software, padrões avançados de projeto e metodologias ágeis em larga escala."
+  },
+  {
+    degree: "Tecnologia em Análise e Desenvolvimento de Software",
+    institution: "Instituto Federal de São Paulo (IFSP) – Campus Araraquara",
+    period: "Concluído em 2022",
+    status: "Graduação Superior",
+    details: "Formação técnica e prática sólida em engenharia de requisitos, algoritmos avançados, modelagem relacional de banco de dados e ciclo completo de desenvolvimento."
+  },
+  {
+    degree: "Técnico em Mecatrônica",
+    institution: "SENAI – Henrique Lupo, Araraquara",
+    period: "Concluído em 06/2016",
+    status: "Ensino Técnico",
+    details: "Formação fundamental em raciocínio lógico, automação, instrumentação e resolução estruturada de problemas analíticos."
+  }
+];
+
+export const certifications = [
+  {
+    title: "Automation Anywhere - Advanced RPA Professional (A2019)",
+    issuer: "Automation Anywhere University",
+    description: "Certificação profissional internacional em automação robótica de processos empresariais (RPA), criação de bots inteligentes e otimização de rotinas corporativas."
+  },
+  {
+    title: "Bootcamp Itaú - Java com IA & Agentes de Software",
+    issuer: "Itaú / DIO",
+    description: "Capacitação avançada unindo ecossistema Java moderno, integração de Inteligência Artificial generativa, engenharia de prompts e desenvolvimento de agentes autônomos."
+  },
+  {
+    title: "Curso de BDD com Cucumber em Java",
+    issuer: "Prof. Francisco Wagner Costa",
+    description: "Desenvolvimento guiado por comportamento (BDD), elaboração de cenários Gherkin e testes de aceitação automatizados em Java."
+  },
+  {
+    title: "Padrões de Projetos Java & Melhores Práticas de Banco de Dados",
+    issuer: "Especializações Técnicas",
+    description: "Estudos práticos aprofundados em Design Patterns (GoF), SOLID, programação funcional com Lambdas/Streams e melhores práticas em PostgreSQL."
+  },
+  {
+    title: "Inglês Técnico & Módulo 1 (CCAA)",
+    issuer: "CCAA",
+    description: "Comunicação técnica em inglês com foco na leitura fluente de documentações de arquitetura, RFCs e frameworks de padrões internacionais."
+  }
+];
+
+export const terminalCommands = {
+  help: `Comandos disponíveis:
+  • bio          - Resumo profissional e posicionamento
+  • skills       - Lista as competências técnicas e arquitetura
+  • exp          - Histórico corporativo na DXC & Freelance
+  • projects     - Principais cases e soluções de engenharia
+  • education    - Formação acadêmica e certificações de peso
+  • contact      - Informações diretas de contato
+  • clear        - Limpa o terminal`,
+  bio: `Mikael Silva | Engenheiro de Software Full Stack & L3 Specialist.
+Especialista em Java (Spring Boot), .NET, Apache Camel (EIP), Oracle PL/SQL, PostgreSQL, React e integração de IA em fluxos corporativos. Sólida atuação em sistemas de missão crítica de alta disponibilidade.`,
+  skills: `ARSENAL TÉCNICO:
+[Backend & Arquitetura]  Java (Spring Boot, Lambdas), .NET / C#, Apache Camel, Padrões GoF/SOLID, Java + IA
+[Bancos de Dados & L3]   Oracle PL/SQL (.PKS/.PKB), PostgreSQL (Best Practices), Jobs Batch, Tuning SQL
+[Frontend & Modern Web]  React.js, Angular, Vue.js, TypeScript, JavaScript (ES6+), HTML5/CSS3
+[DevOps, QA & Automação] Cucumber (BDD), SonarQube, Jenkins CI/CD, GitFlow, Docker, Automation Anywhere (RPA)`,
+  exp: `HISTÓRICO PROFISSIONAL:
+1. DXC Technology - Analyst I Software Engineering (01/2024 - 08/2026) [Sustentação L3 & Causa Raiz]
+2. DXC Technology - Consultor de Tecnologias I (10/2021 - 12/2023) [Full Stack, APIs & CI/CD]
+3. DXC Technology - Estágio em Integração (12/2020 - 10/2021) [Apache Camel & EIP]
+4. Freelancer Full Stack - Projetos Web e SPAs de Alta Performance (React + Java + PostgreSQL)`,
+  projects: `CASES DE ENGENHARIA:
+1. Hub de Integração Apache Camel & Spring Boot (EIP & Barramento Corporativo)
+2. Motor Batch PL/SQL & PostgreSQL para Informações Críticas (SLA L3)
+3. Portal Corporativo Full Stack (React + Java Spring + Jenkins + SonarQube)
+4. Suíte de Testes BDD Automatizados com Cucumber & Selenium`,
+  education: `FORMAÇÃO & CERTIFICAÇÕES:
+• Pós-graduação em Engenharia de Software (Faculdade Metropolitana - Cursando)
+• Tecnologia em Análise e Desenvolvimento de Software (IFSP Araraquara - 2022)
+• Técnico em Mecatrônica (SENAI Henrique Lupo - 2016)
+• Automation Anywhere Certified Advanced RPA Professional
+• Bootcamp Itaú - Java com IA & Agentes
+• BDD com Cucumber em Java`,
+  contact: `CONTATO DIRETO:
+• E-mail:   mikaelmika74@gmail.com
+• Telefone: (16) 99600-9833
+• WhatsApp: https://wa.me/5516996009833
+• LinkedIn: https://www.linkedin.com/in/mikael-silva-835029115
+• GitHub:   https://github.com/mikael-alexander
+• Cidade:   Araraquara/SP - Brasil (Remoto / Híbrido / Presencial)`
+};
