@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Portfólio de Mikael Silva
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação de portfólio construída com React. O conteúdo apresenta o perfil profissional, habilidades, experiência, projetos, formação e canais de contato em uma única página responsiva.
 
-## Available Scripts
+## Componentes
 
-In the project directory, you can run:
+Os componentes ficam em `src/components/`. Cada um representa uma seção ou parte visual do portfólio, o que facilita localizar, atualizar e reutilizar a interface sem concentrar toda a página em um único arquivo.
 
-### `npm start`
+| Componente | Responsabilidade | Por que é usado |
+| --- | --- | --- |
+| `Navbar` | Navegação pelas seções, menu para telas menores e alternância entre temas claro e escuro. | Mantém os links principais acessíveis durante a navegação e agrupa os controles globais do site. |
+| `Hero` | Apresentação inicial, chamadas para contato e métricas profissionais; permite imprimir/salvar o currículo pelo navegador. | Destaca rapidamente quem é o profissional e oferece caminhos diretos para ações importantes. |
+| `Skills` | Exibe habilidades por categoria e permite filtrar por categoria ou texto. | Ajuda visitantes a encontrar competências específicas sem percorrer uma lista extensa. |
+| `Experience` | Apresenta a trajetória profissional em uma linha do tempo. | Organiza cargos, períodos e realizações em uma sequência fácil de acompanhar. |
+| `Projects` | Mostra projetos e seus detalhes em cartões interativos. | Dá contexto às competências por meio de exemplos de soluções e tecnologias. |
+| `Education` | Reúne formação acadêmica e certificações. | Mantém qualificações em uma seção própria e estruturada. |
+| `Terminal` | Simula um terminal interativo com comandos de consulta ao conteúdo do portfólio. | Oferece uma forma lúdica e alternativa de explorar informações profissionais. |
+| `Contact` | Exibe canais de contato e formulário que prepara uma mensagem para envio. | Facilita o contato e ações como copiar o e-mail ou iniciar uma conversa. |
+| `Footer` | Mostra navegação complementar, identificação e atalho para voltar ao topo. | Fecha a página com acesso rápido a links e ações úteis. |
+| `PrintResume` | Estrutura limpa do currículo executivo (padrão A4) exibida exclusivamente durante a impressão/exportação para PDF. | Garante que o documento impresso seja formal, legível e otimizado para processos seletivos. |
+| `Icons` | Define ícones SVG próprios (LinkedIn e GitHub). | Centraliza elementos gráficos vetoriais com controle preciso de tamanho e traço. |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Composição da página
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+`src/App.js` funciona como componente raiz: controla o tema, persiste a preferência no `localStorage` e compõe as seções na ordem em que aparecem. `src/index.js` monta a aplicação React no elemento raiz do HTML.
 
-### `npm test`
+O conteúdo que alimenta as seções está separado da apresentação em `src/data/portfolioData.js`. Essa separação permite atualizar textos, listas e informações profissionais sem alterar a estrutura visual dos componentes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tecnologias e bibliotecas
 
-### `npm run build`
+- **React 19** organiza a interface em componentes e gerencia estados locais, como filtros, menu, terminal e tema.
+- **React DOM** conecta a aplicação React à página HTML.
+- **Lucide React** fornece os ícones usados nas seções; os ícones são componentes e podem ser ajustados por tamanho e classe CSS.
+- **Create React App (`react-scripts`)** fornece os comandos de desenvolvimento, build e testes configurados no projeto.
+- **CSS** (`src/index.css` e `src/App.css`) controla estilos, temas e apresentação responsiva.
+- **Testing Library** está disponível para testes de componentes e interações; **Web Vitals** é incluído pelo template para medição de métricas de carregamento, caso seja configurada.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Como executar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+É necessário ter Node.js e npm instalados. Na pasta do projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+npm start
+```
 
-### `npm run eject`
+O servidor de desenvolvimento fica disponível em [http://localhost:3000](http://localhost:3000).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Comandos disponíveis
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start    # inicia o ambiente de desenvolvimento
+npm test     # executa os testes no modo interativo
+npm run build # gera a versão de produção em build/
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Estrutura principal
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```text
+src/
+├── components/       # seções e elementos da interface
+├── data/
+│   └── portfolioData.js  # conteúdo do portfólio
+├── App.js            # composição da página e estado do tema
+├── App.css           # estilos da aplicação
+└── index.css         # estilos globais
+```
