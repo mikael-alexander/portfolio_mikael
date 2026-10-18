@@ -17,9 +17,9 @@ export const personalInfo = {
   whatsappUrl: "https://wa.me/5516996009833?text=Ol%C3%A1%20Mikael,%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar!",
   linkedin: "https://www.linkedin.com/in/mikael-silva-835029115",
   github: "https://github.com/mikael-alexander",
-  about: `Engenheiro de Software Full Stack com sólida trajetória no desenvolvimento de sistemas corporativos de grande porte e soluções autônomas sob demanda. Especialista em todo o ciclo de vida do software, combinando arquitetura robusta no backend (Java/Spring, .NET, Apache Camel, Oracle PL/SQL e PostgreSQL), inteligência artificial aplicada ao desenvolvimento (Java + IA, Agentes de Software), padrões de projeto (GoF/SOLID) e sustentação de sistemas de missão crítica de Nível 3 (L3).
+  about: `Engenheiro de Software Full Stack com sólida trajetória no ciclo completo de desenvolvimento corporativo, arquitetura de integração e sustentação de sistemas de missão crítica (L3). Especialista no ecossistema Java (Spring Boot) e .NET, com proficiência em barramentos de integração corporativa via Apache Camel (EIP), rotinas críticas de banco de dados (Oracle PL/SQL, PostgreSQL) e frontends modernos (React, Angular, Vue.js, TypeScript).
 
-Experiência consolidada em ambientes de alta disponibilidade na multinacional DXC Technology, diagnóstico aprofundado de causa raiz em plataformas legadas e contemporâneas, cumprimento rigoroso de SLAs, automação de processos (RPA com Automation Anywhere), práticas de BDD com Cucumber e esteiras de CI/CD automatizadas com Jenkins e SonarQube.`
+Experiência consolidada na multinacional DXC Technology na resolução de incidentes de causa raiz, garantia de SLAs, automação de processos (RPA com Automation Anywhere), qualidade contínua com BDD (Cucumber) e esteiras CI/CD com Jenkins e SonarQube.`
 };
 
 export const metrics = [
@@ -63,8 +63,7 @@ export const skillCategories = [
       { name: "Angular", level: "Intermediário/Avançado", badge: "Enterprise" },
       { name: "Vue.js", level: "Intermediário/Avançado", badge: "Modern UI" },
       { name: "TypeScript & JavaScript (ES6+)", level: "Avançado", badge: "Web" },
-      { name: "HTML5 & CSS3 Responsivo / Glassmorphism", level: "Avançado", badge: "Design" },
-      { name: "jQuery & Web Tradicional", level: "Experiência", badge: "Transição Web" }
+      { name: "HTML5 & CSS3 Responsivo / Glassmorphism", level: "Avançado", badge: "Design" }
     ]
   },
   {
@@ -89,10 +88,10 @@ export const experiences = [
     tag: "Missão Crítica & Sustentação L3",
     description: "Atuação estratégica como Engenheiro de Software na sustentação, análise e resolução de incidentes críticos de alta complexidade (L3) reportados por clientes globais, garantindo rigorosa conformidade com SLAs de disponibilidade.",
     achievements: [
-      "Diagnóstico e resolução definitiva de bugs de causa raiz em sistemas corporativos heterogêneos desenvolvidos em Java (JSP), .NET e VB6.",
-      "Criação, manutenção e tuning de rotinas de banco de dados via Packages PL/SQL avançadas (.PKS / .PKB) com foco em consistência transacional.",
-      "Otimização contínua de rotinas de carga de dados e Jobs automatizados responsáveis pelo processamento ininterrupto de informações de alta criticidade.",
-      "Aplicação de Padrões de Projeto (GoF) em refatorações corretivas, reduzindo a dívida técnica e melhorando a estabilidade operacional (MTTR)."
+      "Investigação aprofundada e resolução definitiva de bugs de causa raiz (L3) em ecossistemas corporativos heterogêneos (.NET, Java/JSP e VB6), assegurando conformidade com SLAs críticos.",
+      "Desenvolvimento, refatoração e tuning de rotinas de banco de dados via Packages Oracle PL/SQL avançadas (.PKS / .PKB), com ênfase em concorrência, consistência transacional e eliminação de deadlocks.",
+      "Otimização contínua de jobs batch automatizados e rotinas de carga de dados críticas, garantindo o processamento ininterrupto de operações corporativas de alto volume.",
+      "Aplicação consistente de Padrões de Projeto (GoF e SOLID) em manutenções evolutivas e corretivas, mitigando a dívida técnica e elevando a estabilidade operacional (MTTR)."
     ],
     techs: ["Java", "JSP", ".NET", "PL/SQL (.PKS / .PKB)", "Oracle", "VB6", "Design Patterns", "Jobs Batch", "Sustentação L3", "SLA"]
   },
@@ -103,11 +102,11 @@ export const experiences = [
     tag: "Desenvolvimento Full Stack & Integração",
     description: "Design, construção e automação de sistemas full stack ponta a ponta, unindo microsserviços escaláveis, barramentos de integração corporativa e interfaces reativas.",
     achievements: [
-      "Desenvolvimento e documentação de APIs RESTful em Java (Spring Framework) e .NET utilizando Swagger / OpenAPI sob padrões de Clean Code.",
-      "Construção de rotas inteligentes de integração corporativa com Apache Camel, orquestrando tráfego de dados entre sistemas heterogêneos e módulos ERP.",
-      "Criação de frontends modernos, responsivos e modulares utilizando Angular, Vue.js, HTML5 e CSS3.",
-      "Automação completa de esteiras de CI/CD via Jenkins, com validações de métricas de código e gates de qualidade no SonarQube sob GitFlow.",
-      "Garantia de qualidade contínua com testes unitários, testes de integração e testes comportamentais automatizados (BDD) com Cucumber."
+      "Arquitetura, desenvolvimento e documentação de APIs RESTful escaláveis em Java (Spring Framework) e .NET utilizando Swagger / OpenAPI sob os princípios de Clean Code.",
+      "Construção de rotas inteligentes de integração corporativa com Apache Camel (EIP), orquestrando tráfego de dados transacionais entre sistemas legados e módulos ERP.",
+      "Criação de frontends modulares, reativos e responsivos utilizando Angular, Vue.js, TypeScript, HTML5 e CSS3.",
+      "Automação de esteiras de CI/CD via Jenkins, estabelecendo validações estáticas e quality gates no SonarQube sob a estratégia de branching GitFlow.",
+      "Garantia de qualidade contínua com cobertura de testes unitários, testes de integração e testes comportamentais automatizados (BDD) com Cucumber."
     ],
     techs: ["Java (Spring)", "Apache Camel", ".NET", "Angular", "Vue.js", "Swagger", "Cucumber BDD", "Jenkins", "SonarQube", "GitFlow"]
   },
@@ -118,9 +117,9 @@ export const experiences = [
     tag: "Enterprise Integration Patterns",
     description: "Atuação no desenvolvimento e manutenção de rotas de integração distribuídas para conexão de sistemas heterogêneos de missão crítica.",
     achievements: [
-      "Implementação de componentes e rotas de mensageria utilizando Java e Apache Camel para interoperabilidade de sistemas corporativos.",
-      "Padronização de payloads e protocolos de comunicação, reduzindo gargalos na transferência de dados entre aplicações legadas e modernas.",
-      "Suporte ao diagnóstico de incidentes em fluxos assíncronos e garantia de integridade nas entregas de mensagens."
+      "Implementação de componentes de mensageria e rotas de integração com Java e Apache Camel para interoperabilidade de sistemas corporativos distribuídos.",
+      "Padronização de contratos e protocolos de comunicação (JSON/XML), reduzindo gargalos na transferência de dados entre ecossistemas legados e aplicações modernas.",
+      "Diagnóstico e suporte à resolução de incidentes em fluxos assíncronos, assegurando a rastreabilidade e integridade na entrega de mensagens críticas."
     ],
     techs: ["Java", "Apache Camel", "EIP", "Transformação de Dados", "Mensageria"]
   },
@@ -131,9 +130,9 @@ export const experiences = [
     tag: "Soluções Web Ponta a Ponta",
     description: "Desenvolvimento de software sob medida para clientes diretos, cobrindo todo o ciclo desde o levantamento técnico até o deploy em produção.",
     achievements: [
-      "Levantamento detalhado de requisitos, arquitetura de banco de dados relacional (PostgreSQL / MySQL) e especificação técnica.",
-      "Construção de SPAs modernas e de alto desempenho utilizando React e JavaScript moderno com foco em experiência do usuário.",
-      "Implementação de backends estruturados em Java aplicando Padrões de Projeto para fácil manutenção e escalabilidade futura."
+      "Engenharia e entrega de soluções web sob medida, cobrindo desde o levantamento técnico de requisitos e modelagem de banco de dados relacional (PostgreSQL / MySQL) até a publicação.",
+      "Construção de Single Page Applications (SPAs) modernas e de alta performance utilizando React e TypeScript, com foco em experiência do usuário e design responsivo.",
+      "Desenvolvimento de backends estruturados em Java (Spring Boot) aplicando Padrões de Projeto para fácil manutenção e escalabilidade futura."
     ],
     techs: ["React", "JavaScript", "TypeScript", "Java Spring", "PostgreSQL", "Padrões de Projeto", "Git"]
   }
@@ -222,27 +221,27 @@ export const certifications = [
   {
     title: "Automation Anywhere - Advanced RPA Professional (A2019)",
     issuer: "Automation Anywhere University",
-    description: "Certificação profissional internacional em automação robótica de processos empresariais (RPA), criação de bots inteligentes e otimização de rotinas corporativas."
+    description: "Certificação profissional internacional em automação robótica de processos (RPA), criação de bots inteligentes e otimização de rotinas corporativas."
   },
   {
-    title: "Bootcamp Itaú - Java com IA & Agentes de Software",
+    title: "Bootcamp Itaú: Java com IA & Agentes de Software",
     issuer: "Itaú / DIO",
-    description: "Capacitação avançada unindo ecossistema Java moderno, integração de Inteligência Artificial generativa, engenharia de prompts e desenvolvimento de agentes autônomos."
+    description: "Spring Boot moderno, integração com LLMs, engenharia de prompts e desenvolvimento de agentes autônomos."
   },
   {
-    title: "Curso de BDD com Cucumber em Java",
+    title: "BDD com Cucumber em Java",
     issuer: "Prof. Francisco Wagner Costa",
-    description: "Desenvolvimento guiado por comportamento (BDD), elaboração de cenários Gherkin e testes de aceitação automatizados em Java."
+    description: "Behavior Driven Development, cenários Gherkin e testes de aceitação automatizados integrados a pipelines CI/CD."
   },
   {
-    title: "Padrões de Projetos Java & Melhores Práticas de Banco de Dados",
+    title: "Design Patterns (GoF) & Melhores Práticas de Banco de Dados",
     issuer: "Especializações Técnicas",
-    description: "Estudos práticos aprofundados em Design Patterns (GoF), SOLID, programação funcional com Lambdas/Streams e melhores práticas em PostgreSQL."
+    description: "Padrões GoF, SOLID, programação funcional com Lambdas/Streams e boas práticas em PostgreSQL."
   },
   {
-    title: "Inglês Técnico & Módulo 1 (CCAA)",
+    title: "Inglês Técnico & Módulo 1",
     issuer: "CCAA",
-    description: "Comunicação técnica em inglês com foco na leitura fluente de documentações de arquitetura, RFCs e frameworks de padrões internacionais."
+    description: "Leitura fluente de documentações técnicas, RFCs e escrita corporativa em inglês."
   }
 ];
 

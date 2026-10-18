@@ -26,7 +26,7 @@ export const PrintResume = () => {
       <section className="print-section">
         <h2 className="print-section-title">RESUMO PROFISSIONAL</h2>
         <p className="print-summary-text">
-          Desenvolvedor de Software Full Stack com sólida trajetória no ciclo completo de desenvolvimento, arquitetura de sistemas e sustentação de plataformas de missão crítica de Nível 3 (L3). Especialista no desenvolvimento backend utilizando Java (Spring Framework, Lambdas & Streams), ecossistema .NET, engenharia de integração com Apache Camel (EIP) e soluções avançadas de banco de dados via Oracle PL/SQL (Packages .PKS / .PKB) e PostgreSQL. Ampla vivência em desenvolvimento frontend moderno com React, Angular, Vue.js, TypeScript, JavaScript, HTML5 e CSS3. Experiência consolidada em diagnóstico aprofundado de falhas e resolução de bugs de causa raiz em ambientes legados e modernos, atuando sob a metodologia GitFlow, práticas de qualidade com Cucumber (BDD), testes unitários e de integração, análise de código com SonarQube, automação de processos (RPA com Automation Anywhere) e pipelines de CI/CD com Jenkins.
+          Engenheiro de Software Full Stack com sólida trajetória no ciclo completo de desenvolvimento corporativo, arquitetura de integração e sustentação de sistemas de missão crítica (L3). Especialista no ecossistema Java (Spring Boot) e .NET, com proficiência em barramentos de integração corporativa via Apache Camel (EIP), rotinas críticas de banco de dados (Oracle PL/SQL, PostgreSQL) e frontends modernos (React, Angular, Vue.js, TypeScript). Experiência consolidada na resolução de incidentes de causa raiz, garantia de SLAs, automação de processos (RPA – Automation Anywhere), qualidade contínua com BDD (Cucumber) e esteiras CI/CD com Jenkins e SonarQube. Aplicação consistente de Design Patterns (GoF/SOLID) e Clean Code em contextos de alta criticidade operacional.
         </p>
       </section>
 
@@ -78,20 +78,20 @@ export const PrintResume = () => {
       <section className="print-section">
         <h2 className="print-section-title">HABILIDADES TÉCNICAS</h2>
         <div className="print-skills-block">
-          <p><strong>• Linguagens e Frameworks: </strong>Java (Spring Boot / Framework, JSP, Lambdas & Streams), .NET / C#, React, Angular, Vue.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, jQuery.</p>
-          <p><strong>• Bancos de Dados & Integração: </strong>Oracle PL/SQL (Packages .PKS / .PKB), PostgreSQL (Modelagem & Tuning), MySQL, Apache Camel (EIP - Enterprise Integration Patterns), APIs RESTful, Swagger / OpenAPI.</p>
-          <p><strong>• Ferramentas, DevOps & Automação: </strong>Git, GitHub, GitLab, GitFlow, Jenkins (Pipelines CI/CD), SonarQube, Docker, Kubernetes, Automation Anywhere (Advanced RPA Professional).</p>
+          <p><strong>• Linguagens e Frameworks: </strong>Java (Spring Boot / Framework, JSP, Lambdas &amp; Streams), .NET / C#, React, Angular, Vue.js, TypeScript, JavaScript (ES6+), HTML5, CSS3.</p>
+          <p><strong>• Bancos de Dados &amp; Integração: </strong>Oracle PL/SQL (Packages .PKS / .PKB), PostgreSQL (Modelagem &amp; Tuning), MySQL, Apache Camel (EIP), APIs RESTful, Swagger / OpenAPI.</p>
+          <p><strong>• DevOps &amp; Automação: </strong>Git, GitHub, GitLab, GitFlow, Jenkins (CI/CD), SonarQube, Docker, Kubernetes, Automation Anywhere (Advanced RPA Professional).</p>
           <p><strong>• Qualidade de Software: </strong>Testes Unitários, Testes de Integração, Cucumber (BDD), Selenium, Testes Automatizados de Regressão.</p>
         </div>
       </section>
 
-      {/* Cursos Complementares & Certificações */}
+      {/* Certificações e Cursos Complementares */}
       <section className="print-section">
         <h2 className="print-section-title">CERTIFICAÇÕES E CURSOS COMPLEMENTARES</h2>
         <ul className="print-cert-list">
           {certifications.map((cert, idx) => (
             <li key={idx}>
-              <strong>{cert.title}</strong> – {cert.issuer} ({cert.description})
+              <strong>{cert.title}</strong> — {cert.issuer} · <em>{cert.description}</em>
             </li>
           ))}
         </ul>
@@ -101,8 +101,7 @@ export const PrintResume = () => {
       <section className="print-section">
         <h2 className="print-section-title">IDIOMAS</h2>
         <p className="print-languages-line">
-          <strong>• Inglês: </strong>Técnico (Leitura: intermediária/avançada, escrita: intermediária, fala: básica)<br />
-          <strong>• Espanhol: </strong>Básico (Leitura: intermediária, escrita: básica, fala: básica)
+          <strong>• Inglês:</strong> Intermediário (leitura fluente de documentações técnicas e escrita corporativa) &nbsp;|&nbsp; <strong>Espanhol:</strong> Básico
         </p>
       </section>
     </div>
