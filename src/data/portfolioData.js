@@ -17,6 +17,7 @@ export const personalInfo = {
   whatsappUrl: "https://wa.me/5516996009833?text=Ol%C3%A1%20Mikael,%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar!",
   linkedin: "https://www.linkedin.com/in/mikael-silva-835029115",
   github: "https://github.com/mikael-alexander",
+  portfolio: "https://mikalexander-dev.vercel.app",
   about: `Engenheiro de Software Full Stack com sólida trajetória no ciclo completo de desenvolvimento corporativo, arquitetura de integração e sustentação de sistemas de missão crítica (L3). Especialista no ecossistema Java (Spring Boot) e .NET, com proficiência em barramentos de integração corporativa via Apache Camel (EIP), rotinas críticas de banco de dados (Oracle PL/SQL, PostgreSQL) e frontends modernos (React, Angular, Vue.js, TypeScript).
 
 Experiência consolidada na multinacional DXC Technology na resolução de incidentes de causa raiz, garantia de SLAs, automação de processos (RPA com Automation Anywhere), qualidade contínua com BDD (Cucumber) e esteiras CI/CD com Jenkins e SonarQube.`

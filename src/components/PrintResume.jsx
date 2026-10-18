@@ -19,6 +19,8 @@ export const PrintResume = () => {
           <span>LinkedIn: {personalInfo.linkedin}</span>
           <span>•</span>
           <span>GitHub: {personalInfo.github}</span>
+          <span>•</span>
+          <span>🌐 {personalInfo.portfolio}</span>
         </div>
       </header>
 
