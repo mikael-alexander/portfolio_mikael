@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Briefcase, Calendar, Building, CheckCircle2, Award, ChevronRight } from 'lucide-react';
 import { experiences } from '../data/portfolioData';
 

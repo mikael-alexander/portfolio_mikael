@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Terminal, ArrowUp, Mail, MessageSquare } from 'lucide-react';
 import { LinkedinIcon, GithubIcon } from './Icons';
 import { personalInfo } from '../data/portfolioData';
@@ -77,7 +77,7 @@ export const Footer = () => {
                 <Mail size={18} />
               </a>
             </div>
-            <span className="footer-location">{personalInfo.location}</span>
+
           </div>
         </div>
 

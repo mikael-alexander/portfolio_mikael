@@ -15,7 +15,11 @@ import { personalInfo, metrics } from '../data/portfolioData';
 
 export const Hero = () => {
   const handlePrintCV = () => {
-    window.print();
+    const phone = '5516996009833';
+    const message = encodeURIComponent(
+      'Olá, gostaria de te conhecer mais, poderia me encaminhar seu currículo?'
+    );
+    window.open(`https://wa.me/${phone}?text=${message}`, '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -36,7 +40,7 @@ export const Hero = () => {
           <div className="hero-content">
             <div className="hero-badge-available">
               <span className="pulse-dot"></span>
-              <span>Engenheiro de Software Full Stack & L3 Specialist</span>
+              <span>Engenheiro de Software Full Stack</span>
             </div>
 
             <h1 className="hero-title">
@@ -136,7 +140,6 @@ export const Hero = () => {
 {`// Perfil Profissional & Arquitetura
 const softwareEngineer = {
   nome: "${personalInfo.name}",
-  localidade: "${personalInfo.location}",
   expertise: "Full Stack & Missão Crítica (L3)",
   
   backend: [

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Layers, GitBranch, Database, ShieldAlert, CheckCircle, ExternalLink, Code2 } from 'lucide-react';
 import { projects } from '../data/portfolioData';
 

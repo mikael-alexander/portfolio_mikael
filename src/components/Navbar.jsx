@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { Moon, Sun, Menu, X, Terminal as TerminalIcon, Send } from 'lucide-react';
 import { GithubIcon } from './Icons';
 import { personalInfo } from '../data/portfolioData';

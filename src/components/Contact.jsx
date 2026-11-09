@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿﻿import React, { useState } from 'react';
 import { 
   Mail, 
   MapPin, 
@@ -138,9 +138,8 @@ export const Contact = () => {
                 <MapPin size={22} className="text-indigo" />
               </div>
               <div className="contact-card-content">
-                <span className="contact-label">Localização & Regime</span>
-                <span className="contact-value">{personalInfo.location}</span>
-                <span className="contact-subvalue">Disponível para Remoto / Híbrido</span>
+                <span className="contact-label">Regime</span>
+                <span className="contact-subvalue">Disponível somente para trabalho Remoto</span>
               </div>
             </div>
           </div>
