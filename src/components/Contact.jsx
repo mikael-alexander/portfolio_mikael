@@ -1,9 +1,8 @@
-﻿﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { 
   Mail, 
-  MapPin, 
-  Copy, 
-  Check, 
+  MapPin,
+Check, 
   Send, 
   MessageSquare, 
   Sparkles 
@@ -12,7 +11,6 @@ import { LinkedinIcon, GithubIcon } from './Icons';
 import { personalInfo } from '../data/portfolioData';
 
 export const Contact = () => {
-  const [copiedEmail, setCopiedEmail] = useState(false);
   const [messageForm, setMessageForm] = useState({
     name: '',
     email: '',
@@ -21,11 +19,6 @@ export const Contact = () => {
   });
   const [sentSuccess, setSentSuccess] = useState(false);
 
-  const copyToClipboard = (text) => {
-    navigator.clipboard.writeText(text);
-    setCopiedEmail(true);
-    setTimeout(() => setCopiedEmail(false), 3000);
-  };
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -55,24 +48,7 @@ export const Contact = () => {
         <div className="contact-grid">
           {/* Left Column: Direct Info Cards */}
           <div className="contact-info-cards">
-            {/* Email Card with Copy Button */}
-            <div className="glass-card contact-card">
-              <div className="contact-card-icon bg-cyan-glow">
-                <Mail size={22} className="text-cyan" />
-              </div>
-              <div className="contact-card-content">
-                <span className="contact-label">E-mail Profissional</span>
-                <span className="contact-value">{personalInfo.email}</span>
-              </div>
-              <button 
-                onClick={() => copyToClipboard(personalInfo.email)}
-                className={`btn btn-sm ${copiedEmail ? 'btn-primary' : 'btn-outline'}`}
-                title="Copiar e-mail"
-              >
-                {copiedEmail ? <Check size={14} /> : <Copy size={14} />}
-                <span>{copiedEmail ? 'Copiado!' : 'Copiar'}</span>
-              </button>
-            </div>
+
 
             {/* WhatsApp Card */}
             <div className="glass-card contact-card">
@@ -81,7 +57,6 @@ export const Contact = () => {
               </div>
               <div className="contact-card-content">
                 <span className="contact-label">WhatsApp Direto</span>
-                <span className="contact-value">{personalInfo.phone}</span>
               </div>
               <a 
                 href={personalInfo.whatsappUrl}

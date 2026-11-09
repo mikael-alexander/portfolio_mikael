@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { GraduationCap, Award, BookOpen, Globe } from 'lucide-react';
 import { education, certifications } from '../data/portfolioData';
 

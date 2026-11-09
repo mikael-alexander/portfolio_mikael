@@ -13,7 +13,6 @@ export const personalInfo = {
   ],
   location: "Araraquara, SP - Brasil",
   email: "mikaelmika74@gmail.com",
-  phone: "(16) 99600-9833",
   whatsappUrl: "https://wa.me/5516996009833?text=Ol%C3%A1%20Mikael,%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar!",
   linkedin: "https://www.linkedin.com/in/mikael-silva-835029115",
   github: "https://github.com/mikael-alexander",
@@ -280,8 +279,6 @@ Especialista em Java (Spring Boot), .NET, Apache Camel (EIP), Oracle PL/SQL, Pos
 • Bootcamp Itaú - Java com IA & Agentes
 • BDD com Cucumber em Java`,
   contact: `CONTATO DIRETO:
-• E-mail:   mikaelmika74@gmail.com
-• Telefone: (16) 99600-9833
 • WhatsApp: https://wa.me/5516996009833
 • LinkedIn: https://www.linkedin.com/in/mikael-silva-835029115
 • GitHub:   https://github.com/mikael-alexander

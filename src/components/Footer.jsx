@@ -1,5 +1,5 @@
-﻿import React from 'react';
-import { Terminal, ArrowUp, Mail, MessageSquare } from 'lucide-react';
+import React from 'react';
+import { Terminal, ArrowUp, MessageSquare } from 'lucide-react';
 import { LinkedinIcon, GithubIcon } from './Icons';
 import { personalInfo } from '../data/portfolioData';
 
@@ -69,13 +69,7 @@ export const Footer = () => {
               >
                 <MessageSquare size={18} />
               </a>
-              <a 
-                href={`mailto:${personalInfo.email}`} 
-                className="footer-social-btn"
-                aria-label="E-mail"
-              >
-                <Mail size={18} />
-              </a>
+
             </div>
 
           </div>

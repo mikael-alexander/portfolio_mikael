@@ -9,11 +9,6 @@ export const PrintResume = () => {
         <h1 className="print-name">{personalInfo.name}</h1>
         <div className="print-title">{personalInfo.role}</div>
         <div className="print-contact-row">
-          <span>Tel: {personalInfo.phone}</span>
-          <span>•</span>
-          <span>E-mail: {personalInfo.email}</span>
-        </div>
-        <div className="print-contact-row">
           <span>LinkedIn: {personalInfo.linkedin}</span>
           <span>•</span>
           <span>GitHub: {personalInfo.github}</span>

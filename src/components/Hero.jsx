@@ -1,9 +1,8 @@
 import React from 'react';
 import { 
   ArrowRight, 
-  Download, 
-  Mail, 
-  MessageSquare, 
+  Download,
+MessageSquare, 
   ShieldCheck, 
   Cpu, 
   Database, 
@@ -108,14 +107,7 @@ export const Hero = () => {
                 <LinkedinIcon size={18} />
                 <span>LinkedIn</span>
               </a>
-              <a 
-                href={`mailto:${personalInfo.email}`} 
-                className="social-btn"
-                title="Enviar E-mail"
-              >
-                <Mail size={18} />
-                <span>{personalInfo.email}</span>
-              </a>
+
             </div>
           </div>
 

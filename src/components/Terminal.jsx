@@ -1,4 +1,4 @@
-﻿import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { Terminal as TerminalIcon, CornerDownLeft, Play, Trash2, HelpCircle } from 'lucide-react';
 import { terminalCommands } from '../data/portfolioData';
 
